@@ -149,11 +149,11 @@ class StreamDeck(ABC):
                 if 'rotary' in hid_states:
                     if self.rotaryturn_callback is not None:
                         # This should be per knob and include self
-                        self.rotaryturn_callback(hid_states['rotary'])
+                        self.rotaryturn_callback(self, hid_states['rotary'])
 
                 if 'touch' in hid_states:
                     if self.lcdtouch_callback is not None:
-                        self.lcdtouch_callback(*hid_states['touch'])
+                        self.lcdtouch_callback(self, *hid_states['touch'])
 
             except (TransportError):
                 self.run_read_thread = False

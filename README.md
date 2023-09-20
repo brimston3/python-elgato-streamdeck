@@ -50,7 +50,7 @@ directory.
 ## Credits:
 
 I've used the reverse engineering notes from
-[this GitHub](https://github.com/Lange/node-elgato-stream-deck/blob/master/NOTES.md)
+[this GitHub](https://github.com/alvancamp/node-elgato-stream-deck/blob/master/NOTES.md)
 repository to implement this library. Thanks Alex Van Camp!
 
 Thank you to the following contributors, large and small, for helping with the
@@ -66,6 +66,7 @@ development and maintenance of this library:
 - [jmudge14](https://github.com/jmudge14)
 - [Kalle-Wirsch](https://github.com/Kalle-Wirsch)
 - [karstlok](https://github.com/karstlok)
+- [Lewiscowles1986](https://github.com/Lewiscowles1986)
 - [m-weigand](https://github.com/m-weigand)
 - [matrixinius](https://github.com/matrixinius)
 - [phillco](https://github.com/phillco)
